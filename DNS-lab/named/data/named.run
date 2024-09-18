@@ -1,0 +1,165 @@
+managed-keys-zone: loaded serial 0
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone 50.168.192.in-addr.arpa/IN: loaded serial 2019022400
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone example.com/IN: loaded serial 2019022400
+zone localhost/IN: loaded serial 0
+zone localhost.localdomain/IN: loaded serial 0
+all zones loaded
+running
+network unreachable resolving './NS/IN': 2001:500:a8::e#53
+network unreachable resolving './NS/IN': 2001:500:2f::f#53
+network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './NS/IN': 2001:500:2d::d#53
+network unreachable resolving './NS/IN': 2001:500:2::c#53
+network unreachable resolving './NS/IN': 2001:7fd::1#53
+network unreachable resolving './NS/IN': 2001:7fe::53#53
+network unreachable resolving './NS/IN': 2001:500:1::53#53
+network unreachable resolving './NS/IN': 2001:500:200::b#53
+network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+network unreachable resolving './NS/IN': 2001:500:9f::42#53
+network unreachable resolving './NS/IN': 2001:dc3::35#53
+resolver priming query complete
+managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 172.25.250.253#53
+no longer listening on 192.168.50.254#53
+no longer listening on 10.40.2.27#53
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 2
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone localhost.localdomain/IN: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone localhost/IN: loaded serial 0
+zone 50.168.192.in-addr.arpa/IN: loaded serial 2019022400
+zone example.com/IN: loaded serial 2019022400
+all zones loaded
+running
+network unreachable resolving './DNSKEY/IN': 172.25.250.254#53
+network unreachable resolving './NS/IN': 2001:500:1::53#53
+network unreachable resolving './DNSKEY/IN': 2001:500:1::53#53
+network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+network unreachable resolving './DNSKEY/IN': 2001:500:12::d0d#53
+network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './DNSKEY/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+network unreachable resolving './DNSKEY/IN': 2001:503:c27::2:30#53
+network unreachable resolving './NS/IN': 2001:7fd::1#53
+network unreachable resolving './DNSKEY/IN': 2001:7fd::1#53
+network unreachable resolving './NS/IN': 2001:500:2::c#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2::c#53
+network unreachable resolving './NS/IN': 2001:500:9f::42#53
+network unreachable resolving './DNSKEY/IN': 2001:500:9f::42#53
+network unreachable resolving './NS/IN': 2001:500:200::b#53
+network unreachable resolving './DNSKEY/IN': 2001:500:200::b#53
+network unreachable resolving './NS/IN': 2001:500:2d::d#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2d::d#53
+network unreachable resolving './NS/IN': 2001:500:a8::e#53
+network unreachable resolving './DNSKEY/IN': 2001:500:a8::e#53
+network unreachable resolving './NS/IN': 2001:7fe::53#53
+network unreachable resolving './DNSKEY/IN': 2001:7fe::53#53
+network unreachable resolving './NS/IN': 2001:dc3::35#53
+network unreachable resolving './DNSKEY/IN': 2001:dc3::35#53
+network unreachable resolving './NS/IN': 2001:500:2f::f#53
+network unreachable resolving './DNSKEY/IN': 2001:500:2f::f#53
+network unreachable resolving './NS/IN': 198.97.190.53#53
+network unreachable resolving './DNSKEY/IN': 198.97.190.53#53
+network unreachable resolving './NS/IN': 192.112.36.4#53
+network unreachable resolving './DNSKEY/IN': 192.112.36.4#53
+network unreachable resolving './NS/IN': 198.41.0.4#53
+network unreachable resolving './DNSKEY/IN': 198.41.0.4#53
+network unreachable resolving './NS/IN': 192.58.128.30#53
+network unreachable resolving './DNSKEY/IN': 192.58.128.30#53
+network unreachable resolving './NS/IN': 193.0.14.129#53
+network unreachable resolving './DNSKEY/IN': 193.0.14.129#53
+network unreachable resolving './NS/IN': 192.33.4.12#53
+network unreachable resolving './DNSKEY/IN': 192.33.4.12#53
+network unreachable resolving './NS/IN': 199.7.83.42#53
+network unreachable resolving './DNSKEY/IN': 199.7.83.42#53
+network unreachable resolving './NS/IN': 199.9.14.201#53
+network unreachable resolving './DNSKEY/IN': 199.9.14.201#53
+network unreachable resolving './NS/IN': 199.7.91.13#53
+network unreachable resolving './DNSKEY/IN': 199.7.91.13#53
+network unreachable resolving './NS/IN': 192.203.230.10#53
+network unreachable resolving './DNSKEY/IN': 192.203.230.10#53
+network unreachable resolving './NS/IN': 192.36.148.17#53
+network unreachable resolving './DNSKEY/IN': 192.36.148.17#53
+network unreachable resolving './NS/IN': 202.12.27.33#53
+network unreachable resolving './DNSKEY/IN': 202.12.27.33#53
+network unreachable resolving './NS/IN': 192.5.5.241#53
+resolver priming query complete
+network unreachable resolving './DNSKEY/IN': 192.5.5.241#53
+managed-keys-zone: Unable to fetch DNSKEY set '.': failure
+listening on IPv4 interface eth0, 172.25.250.253#53
+listening on IPv4 interface eth1, 192.168.50.254#53
+listening on IPv4 interface eth2, 10.81.2.122#53
+network unreachable resolving './NS/IN': 2001:7fe::53#53
+network unreachable resolving './NS/IN': 2001:500:200::b#53
+network unreachable resolving './NS/IN': 2001:500:2::c#53
+network unreachable resolving './NS/IN': 2001:500:2d::d#53
+network unreachable resolving './NS/IN': 2001:500:2f::f#53
+network unreachable resolving './NS/IN': 2001:dc3::35#53
+network unreachable resolving './NS/IN': 2001:500:12::d0d#53
+network unreachable resolving './NS/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving './NS/IN': 2001:503:c27::2:30#53
+network unreachable resolving './NS/IN': 2001:7fd::1#53
+network unreachable resolving './NS/IN': 2001:500:a8::e#53
+network unreachable resolving './NS/IN': 2001:500:9f::42#53
+network unreachable resolving './NS/IN': 2001:500:1::53#53
+managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+resolver priming query complete
+checkhints: b.root-servers.net/A (170.247.170.2) missing from hints
+checkhints: b.root-servers.net/A (199.9.14.201) extra record in hints
+checkhints: b.root-servers.net/AAAA (2801:1b8:10::b) missing from hints
+checkhints: b.root-servers.net/AAAA (2001:500:200::b) extra record in hints
+timed out resolving 'amazonaws.com/DS/IN': 172.25.250.254#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:500:12::d0d#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:7fe::53#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:dc3::35#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:500:1::53#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:c27::2:30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:ba3e::2:30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:500:2f::f#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:500:2d::d#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2801:1b8:10::b#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:500:2::c#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:500:a8::e#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:7fd::1#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:500:9f::42#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:83eb::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:502:7094::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:eea3::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:501:b1f9::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:d414::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:502:8cc::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:a83e::2:30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:231d::2:30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:39c1::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:d2d::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:500:856e::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:500:d937::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:502:1ca1::30#53
+timed out resolving 'amazonaws.com/DS/IN': 172.25.250.254#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:231d::2:30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:83eb::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:502:1ca1::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:500:d937::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:501:b1f9::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:a83e::2:30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:d414::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:eea3::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:500:856e::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:502:7094::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:39c1::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:503:d2d::30#53
+network unreachable resolving 'amazonaws.com/DS/IN': 2001:502:8cc::30#53
+_default: sending trust-anchor-telemetry query '_ta-4f66/NULL'
