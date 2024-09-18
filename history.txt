@@ -1,0 +1,291 @@
+    1  ping 10.0.0.7
+    2  exit
+    3  cd /var/www/html
+    4  ls
+    5  cd openshift4/
+    6  ls
+    7  cd images
+    8  ls
+    9  cd ..
+   10  cd 4.64
+   11  cd 4.6.4
+   12  ls
+   13  cd ignitions/
+   14  ls
+   15  exit
+   16  whoami 
+   17  pwd
+   18  sudo -i 
+   19  source /etc/bash_completion.d/openshift
+   20  source /etc/bash_completion.d/openshift-install
+   21  ls -la .ssh/
+   22   ssh-keygen -t rsa -b 4096 -N '' -f .ssh/ocp4upi
+   23  ls -la .ssh/
+   24  vim .ssh/ocp4upi
+   25  vim .ssh/ocp4upi.pub 
+   26  curl -s https://nexus-registry-int.apps.tools-apac150.prod.ole.redhat.com -o /dev/null;echo $?
+   27  exit
+   28  export KUBECONFIG=/home/lab/ocp4upi/auth/kubeconfig 
+   29  oc projects
+   30  oc get clusterversion 
+   31  oc get co
+   32  oc get clusterversion 
+   33  oc get nodes
+   34  oc get clusterversion 
+   35  oc get nodes
+   36  oc get clusterversion 
+   37  oc get nodes
+   38  oc get clusterversion 
+   39  oc get co
+   40  oc get clusterversion 
+   41  oc get nodes
+   42  oc get csr 
+   43  oc get nodes
+   44  oc get clusterversion 
+   45  oc version 
+   46  oc get clusterversion 
+   47  oc version 
+   48  oc get clusterversion 
+   49  oc version 
+   50  oc get nodes
+   51  oc version 
+   52  oc get clusterversion 
+   53  oc get co
+   54  oc get pods -n etcd
+   55  oc projects | grep etcd
+   56  oc get pods -n openshift-etcd
+   57  oc get pods -n openshift-etcd-operator 
+   58  oc get csr
+   59  oc get pods -n openshift-etcd
+   60  oc get pods -n openshift-etcd-operator 
+   61  oc get csr
+   62  oc get nodes
+   63  oc get csr
+   64  oc get nodes
+   65  oc get cluster 
+   66  oc get clusterversion 
+   67  oc get pods -n openshift-machine-api 
+   68  oc get nodes
+   69  oc get pods -n openshift-machine-api 
+   70  oc get nodes
+   71  oc get clusterversion
+   72  oc get co
+   73  oc get pods -n kube--system 
+   74  oc get pods -n kube-system 
+   75  oc projects | grep kube
+   76  oc get pods -n kube-system
+   77  oc get pods -n openshift-kube-apiserver
+   78  oc get pods -n openshift-kube-scheduler
+   79  oc get pods -n openshift-kube-controller-manager
+   80  oc get pods -n kube-system 
+   81  oc get nodes
+   82  oc get clusterversion 
+   83  oc get nodes
+   84  oc get clusterversion 
+   85  oc version 
+   86  oc get clusterversion 
+   87  oc get csr 
+   88  oc get clusterversion 
+   89  oc get co
+   90  oc get clusterversion 
+   91  oc get co
+   92  oc get clusterversion 
+   93  watch oc get clusterversion 
+   94  oc get co
+   95  watch oc get clusterversion 
+   96  oc get co
+   97  oc get clusterversion 
+   98  oc get co
+   99  oc get clusterversion 
+  100  cd ocp4upi/
+  101  ll
+  102  cd ocp4upi/
+  103  ll
+  104  ls -la
+  105  tail -f .openshift_install.log 
+  106  oc get version 
+  107  oc get clusterversion 
+  108  oc get nodes
+  109  oc get clusterversion 
+  110  oc get csr
+  111  oc get clusterversion 
+  112  oc get csr
+  113  oc get clusterversion 
+  114  oc get csr
+  115  oc get clusterversion 
+  116  oc get csr
+  117  oc get clusterversion 
+  118  oc get nodes
+  119  oc get clusterversion 
+  120  oc get nodes
+  121  oc get clusterversion 
+  122  oc get co
+  123  oc get clusterversion 
+  124  oc get csr
+  125  oc get csr -o go-template='{{range .items}}{{if not .status}} {{.metadata.name}}{{"\n"}}{{end}}{{end}}' | xargs oc adm certificate approve
+  126  oc get csr
+  127  oc get clusterversion 
+  128  oc get pods
+  129  oc get nodes
+  130  oc get csr
+  131  oc get csr -o go-template='{{range .items}}{{if not .status}} {{.metadata.name}}{{"\n"}}{{end}}{{end}}' | xargs oc adm certificate approve
+  132  oc get csr
+  133  oc get nodes
+  134  oc adm top nodes
+  135  oc get nodes
+  136  oc get csr
+  137  oc get nodes
+  138  oc get clusterversion 
+  139  sudi su -a
+  140  sudi su -i
+  141  sudo su -i
+  142  sudo -i
+  143  oc get clusterversion 
+  144  oc get nodes
+  145  oc get csr
+  146  oc get clusterversion 
+  147  oc get csr
+  148  oc get co
+  149  oc get csr
+  150  oc get clusterversion 
+  151  oc get csr
+  152  oc get co
+  153  oc get pods -n openshift-authentication 
+  154  oc get pods -n openshift-authentication-operator 
+  155  oc get svc -n openshift-authentication 
+  156  oc get route -n openshift-authentication 
+  157  oc get csr
+  158  oc get clusterversion 
+  159  oc get co
+  160  oc get clusterversion 
+  161  oc get nodes
+  162  oc get csr
+  163  oc get csr -o go-template='{{range .items}}{{if not .status}} {{.metadata.name}}{{"\n"}}{{end}}{{end}}' | xargs oc adm certificate approve
+  164  oc get csr
+  165  oc get nodes
+  166  oc get clusterversion 
+  167  oc get pods -n openshift-authentication
+  168  oc get nodes
+  169  oc get clusterversion 
+  170  oc get co
+  171  oc get nodes
+  172  oc get clusterversion 
+  173  oc version
+  174  oc whoami 
+  175  ll
+  176  oc get clusterversion 
+  177  oc get nodes 
+  178  oc debug node/worker01 
+  179  oc get nodes 
+  180  watch oc get nodes 
+  181  oc debug node/worker01 
+  182  oc get nodes 
+  183  #ssh -i ~/.ssh/ocp4upi.pub core@
+  184  oc get nodes -o wide 
+  185  ssh -i ~/.ssh/ocp4upi.pub core@192.168.50.13
+  186  ssh -i ~/.ssh/ocp4upi.pub root@192.168.50.13
+  187  ssh -i ~/.ssh/ocp4upi.pub 192.168.50.13
+  188  ssh -i ~/.ssh/ocp4upi.pub lab@192.168.50.13
+  189  ssh -i ~/.ssh/ocp4upi.pub coreuser@192.168.50.13
+  190  cd .s
+  191  cd
+  192  cd .ssh/
+  193  ll
+  194  ssh -i ~/.ssh/ocp4upi coreuser@192.168.50.13
+  195  ssh -i ~/.ssh/ocp4upi core@192.168.50.13
+  196  oc get nodes 
+  197  cd
+  198  oc adm cordon --help |less
+  199  oc adm cordon worker01 
+  200  oc get nodes
+  201  oc adm uncordon worker01 
+  202  oc get nodes
+  203  oc new-project demo01
+  204  oc project -q 
+  205  oc get all
+  206  oc new-app --name app01 httpd
+  207  oc get pods 
+  208  oc get pods -o wide
+  209  oc scale --replicas=2 deployment app01 
+  210  oc get pods -o wide
+  211  oc scale --replicas=10 deployment app01 
+  212  oc get pods -o wide
+  213  oc adm cordon worker02
+  214  oc get nodes
+  215  oc scale --replicas=15 deployment app01 
+  216  oc get pods -o wide
+  217  oc scale --replicas=18 deployment app01 
+  218  oc get pods -o wide
+  219  oc get nodes
+  220  oc adm  uncordon worker02 
+  221  oc get nodes
+  222  oc get pods
+  223  oc get pods -o wide 
+  224  oc get pods -o wide  | grep worker02
+  225  oc get pods -o wide  | grep worker01
+  226  oc get nodes
+  227  oc adm cordon worker02 
+  228  oc get nodes
+  229  oc adm drain worker2 
+  230  oc adm drain worker02
+  231  oc get pods -o wide  | grep worker01
+  232  oc get pods -o wide  | grep worker02
+  233  oc adm drain worker02 --ignore-daemonsets
+  234  oc get pods -o wide  | grep worker02
+  235  oc get pods -o wide  | grep worker01
+  236  oc adm must-gather 
+  237   cat /etc/exports
+  238  lsblk 
+  239  df -THP /exports/
+  240  df -THP
+  241  vim /etc/exports
+  242  sudo su - 
+  243  oc get sc
+  244  vim pv.yaml 
+  245  mkdir /exports/registry
+  246  sudo chmod 777 /exports/registry/
+  247  oc create -f pv.yaml
+  248  oc get pv 
+  249  oc get sc
+  250  vim pvc.yaml
+  251  oc create -f pvc.yaml 
+  252  vim pvc.yaml
+  253  oc create -f pvc.yaml 
+  254  oc get pv
+  255  oc get pvc
+  256  cat pvc.yaml 
+  257  oc get pvc -n openshift-image-registry
+  258   oc edit configs.imageregistry/cluster
+  259  oc gte pv -A
+  260  oc get pv -A
+  261  oc get pvc -A
+  262  oc get clusterview 
+  263  oc get clusterversion 
+  264  oc get co
+  265   oc get pods -n openshift-image-registry -o wide
+  266   git clone  https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner
+  267  pwd
+  268  ll
+  269  cd nfs-subdir-external-provisioner/
+  270  pwd
+  271  ll
+  272  pwd
+  273  cd 
+  274  mkdir GIT
+  275  cd GIT/
+  276  pwd
+  277  ll
+  278  git clone https://github.com/cprakash2118/nokia-do322
+  279  ll
+  280  cd nokia-do322/
+  281  pwd
+  282  ll
+  283  git clone https://github.com/cprakash2118/nokia-do322
+  284  ll
+  285  rm -rf nokia-do322 
+  286  ll
+  287  history | grep clone 
+  288   git clone  https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner
+  289  ll
+  290  history 
+  291  history > history.txt
